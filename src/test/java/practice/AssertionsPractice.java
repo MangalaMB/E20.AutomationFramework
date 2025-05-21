@@ -6,6 +6,9 @@ import org.testng.asserts.SoftAssert;
 
 public class AssertionsPractice {
 	
+	
+	
+	
 	@Test(retryAnalyzer = genericUtilities.RetryAnalyserImplementation.class)
 	public void sample()
 	{
@@ -25,6 +28,12 @@ public class AssertionsPractice {
 		Assert.assertEquals(0, 1);
 		
 		System.out.println("Step 4");
+		System.out.println("Step 4");
+		System.out.println("Step 4");
+		System.out.println("Step 4");
+		
+		
+		
 		System.out.println("Step 5");
 		System.out.println("Step 6");
 	}
